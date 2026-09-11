@@ -10,9 +10,19 @@ load_dotenv(BASE_DIR / ".env")
 SECRET_KEY = os.getenv("DJANGO_SECRET_KEY", "django-insecure-change-this-in-production")
 DEBUG = os.getenv("DJANGO_DEBUG", "True").lower() == "true"
 
+railway_domain = os.getenv("RAILWAY_PUBLIC_DOMAIN", "")
+
+allowed_hosts = os.getenv(
+    "DJANGO_ALLOWED_HOSTS",
+    "127.0.0.1,localhost",
+).split(",")
+
+if railway_domain:
+    allowed_hosts.append(railway_domain)
+
 ALLOWED_HOSTS = [
     host.strip()
-    for host in os.getenv("DJANGO_ALLOWED_HOSTS","127.0.0.1,localhost").split(",")
+    for host in allowed_hosts
     if host.strip()
 ]
 
