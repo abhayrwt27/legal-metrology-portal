@@ -29,7 +29,7 @@ export function renderHome() {
         </div>
         <div class="hero-panel">
           <div class="document-frame">
-            <div class="document-head"><span>LEGAL METROLOGY</span><span>VERIFICATION RECORD</span></div>
+            <div class="document-head"><span>Digital Legal Metrology Portal</span><span>VERIFICATION RECORD</span></div>
             <div class="document-line wide"></div><div class="document-line"></div>
             <div class="document-grid"><div><small>INSTRUMENT UID</small><strong>LM-INST-2026-000001</strong></div><div><small>STATUS</small><strong class="verified">VALID</strong></div></div>
             <div class="document-seal">VERIFIED</div>
@@ -59,7 +59,7 @@ export function renderHome() {
         <p>The platform connects stakeholders, instruments, inspections and certificates through a structured digital record. It is designed as a prototype architecture for government and enterprise workflows, with role-based access and public-safe verification.</p>
       </section>
     </main>
-    <footer><div><strong>DIGITAL LEGAL METROLOGY PORTAL</strong><span>SIH prototype</span></div><span>Professional digital verification infrastructure</span></footer>
+    <footer><div><strong>MAAPAK</strong><span>SIH prototype</span></div><span>Professional digital verification infrastructure</span></footer>
   `;
   bindNavigation(); refreshIcons();
 }

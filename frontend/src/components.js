@@ -15,7 +15,7 @@ export function publicHeader() {
       <a class="brand" href="/" data-link>
         <span class="brand-mark">LM</span>
         <span>
-          <strong>DIGITAL LEGAL METROLOGY PORTAL</strong>
+          <strong>MAAPAK</strong>
           <small>Verification & lifecycle management</small>
         </span>
       </a>
@@ -45,7 +45,7 @@ export function portalShell(content, active = "dashboard") {
       <aside class="sidebar" id="sidebar">
         <div class="sidebar-brand">
           <span class="brand-mark">LM</span>
-          <div><strong>LEGAL METROLOGY</strong><small>Digital Portal</small></div>
+          <div><strong>MAAPAK</strong><small>Digital Portal</small></div>
         </div>
         <div class="role-label">${role}</div>
         <nav class="side-nav">
