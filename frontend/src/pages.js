@@ -59,7 +59,7 @@ export function renderHome() {
         <p>The platform connects stakeholders, instruments, inspections and certificates through a structured digital record. It is designed as a prototype architecture for government and enterprise workflows, with role-based access and public-safe verification.</p>
       </section>
     </main>
-    <footer><div><strong>MAAPAK</strong><span>SIH prototype</span></div><span>Professional digital verification infrastructure</span></footer>
+    <footer><div><strong>MAAPAK</strong><span> | SIH prototype</span></div><span>Professional digital verification infrastructure</span></footer>
   `;
   bindNavigation(); refreshIcons();
 }
